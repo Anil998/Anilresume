@@ -126,7 +126,7 @@ body {
     float: left;
     background-color: var(--white);
     height: 700px;
-    margin: 40px 0px;
+    margin: 30px 0px;
     border-radius: 50px 0px 0px 50px;
     padding: 30px 45px;
     box-shadow: -7px 2px 15px 2px #54585d52;
@@ -293,8 +293,8 @@ h1 span {
 .social{
     font-size: large;
     float: right;
-    margin-top: 12%;
-    margin-right: 0%;
+    margin-top: 0%;
+    margin-right: 2%;
 }
 
 #marq{
