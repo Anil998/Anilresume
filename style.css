@@ -290,17 +290,19 @@ h1 span {
     font-size: 12px;
     color: var(--black);
 }
+
+.socialmedia{
+    margin-top: 0%;
+}
 .social{
     font-size: large;
     float: right;
-    margin-top: 10%;
     margin-right: 2%;
 }
 
 #marq{
 width: fit-content;
 }
-
 
 /* Style buttons
 .btn {
