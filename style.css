@@ -38,7 +38,12 @@ body {
     float: left;
 }
 
-.col-div-6{width: 50%; float: left; position: relative;}
+.col-div-6 {
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
 /* .line1 {
     background: var(--process);
     border-radius: 13px;
@@ -111,7 +116,7 @@ body {
     width: 700px;
     height: 820px;
     background: linear-gradient(var(--one), var(--two));
-    margin: 20px auto;
+    margin: 20px auto 0%;
     box-shadow: 5px 5px 5px 5px #54585d33;
 }
 
@@ -291,33 +296,36 @@ h1 span {
     color: var(--black);
 }
 
-.socialmedia{
+.socialmedia {
     margin-top: 0%;
 }
-.social{
+
+.social {
     font-size: large;
     float: right;
     margin-right: 2%;
 }
 
-#marq{
-width: fit-content;
+#marq {
+    width: fit-content;
+}
+.download{
+    width: 10%;
+ margin: 0 auto;
 }
 
-/* Style buttons
-.btn {
+.download button {
     size: 5px;
     background-color: DodgerBlue;
-    width: 150px;
-    height: 5px;
+    width: fit-content;
+    height: fit-content;
     border: none;
     color: white;
     padding: 12px 30px;
     cursor: pointer;
     font-size: 20px;
-  }
-  
-  /* Darker background on mouse-over */
-  /* .btn:hover {
+}
+
+.download button:hover {
     background-color: RoyalBlue;
-  /* } */ 
+}
