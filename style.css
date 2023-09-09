@@ -309,9 +309,12 @@ h1 span {
 #marq {
     width: fit-content;
 }
-.download{
+
+.download {
+    display: flex;
+    align-items: center;
     width: 10%;
- margin: 0 auto;
+    margin: 0 auto;
 }
 
 .download button {
